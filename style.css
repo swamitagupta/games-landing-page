@@ -1,0 +1,279 @@
+* {
+  margin: 0px;
+}
+body {
+  background-color: #12122f;
+}
+
+p {
+  color: white;
+}
+
+span {
+  color: #fe107b;
+}
+
+h1 {
+  color: white;
+}
+
+h2 {
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-size: 2.2rem;
+  width: 25%;
+  margin-bottom: 5rem;
+}
+
+.logo {
+  margin-top: auto;
+  font-family: "Comforter", cursive;
+  font-size: 7rem;
+  width: 10%;
+}
+
+.shop-text {
+  margin: auto;
+  text-align: center;
+  width: 50%;
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-size: 1.5rem;
+}
+
+.top-container {
+  background-image: url("images/controller.png");
+  width: 100%;
+  padding-top: 5%;
+  padding-bottom: 10%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.shop-container {
+  width: 100%;
+  padding-top: 8%;
+  padding-bottom: 5%;
+}
+
+.game-container {
+  width: 100%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.review-container {
+  width: 100%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.bottom-container {
+  width: 100%;
+  background-image: url("images/keyboard.png");
+  padding-top: 15%;
+  min-height: 20rem;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.top-content {
+  padding-left: 10rem;
+  padding-top: 5rem;
+}
+
+.btn {
+  display: inline-block;
+  background: #fe107b;
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #fa41a4;
+  text-decoration: none;
+}
+
+.game-btn {
+  display: inline-block;
+  background: #fe107b;
+  -webkit-border-radius: 14;
+  -moz-border-radius: 14;
+  border-radius: 14px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 5px 15px;
+  text-decoration: none;
+}
+
+.game-btn:hover {
+  background: #fa41a4;
+  text-decoration: none;
+}
+
+.shop-heading {
+  margin: 0rem auto 3rem auto;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 3.5rem;
+}
+
+.game-link {
+  color: #fe107b;
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
+  font-size: 1.5rem;
+}
+
+.game-link:hover {
+  color: #fa41a4;
+  text-decoration: none;
+}
+
+.game-link-div {
+  margin-top: 15rem;
+  text-align: center;
+}
+
+.arrow {
+  border: solid #fe107b;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.game-heading {
+  color: #fe107b;
+  font-family: "Lato", sans-serif;
+  font-size: 2rem;
+}
+
+.game-text {
+  font-family: "Lato", sans-serif;
+  font-size: 1.2rem;
+  width: 80%;
+  line-height: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.game-img {
+  border-radius: 50%;
+  height: 12rem;
+  float: left;
+  margin-right: 30px;
+}
+
+.game {
+  width: 50%;
+  margin: auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.game-row {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.review-heading {
+  color: #fe107b;
+  font-family: "Lato", sans-serif;
+  font-size: 1.6rem;
+}
+
+.review {
+  text-align: left;
+  line-height: 2;
+  width: 30%;
+  margin: 5rem;
+}
+
+.review-row {
+  display: flex;
+}
+
+.review-text {
+  margin-bottom: 2rem;
+}
+
+.contact-heading {
+  margin: 10rem;
+  padding-top: 10rem;
+  font-family: "Lato", sans-serif;
+  font-size: 3.5rem;
+  display: inline;
+}
+
+.contact-info {
+  font-family: "Lato", sans-serif;
+  font-size: 1.2rem;
+  width: 30%;
+  padding-top: 1.5rem;
+  display: inline;
+  position: absolute;
+  right: 10rem;
+  line-height: 2rem;
+}
+
+.contact-text {
+  margin-bottom: 2rem;
+}
+
+.icon {
+  margin: 2%;
+}
+
+.icon:hover {
+  color: #fa41a4;
+}
+
+@media screen and (max-width: 900px) {
+  .bottom-container {
+    display: block;
+  }
+
+  .contact-heading {
+    padding-top: 0;
+    padding-right: 2rem;
+    margin: 1rem;
+    display: block;
+  }
+
+  .bottom-container {
+    min-height: 30rem;
+  }
+
+  .review-row {
+    display: block;
+  }
+
+  .review {
+    text-align: center;
+    margin: auto;
+  }
+
+  .game-img {
+    float: none;
+  }
+
+  .game-container {
+    text-align: center;
+  }
+}
